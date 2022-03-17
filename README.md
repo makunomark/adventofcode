@@ -9,3 +9,15 @@ In each day, inside the `inputs` folder, there are two files, `sample_input.txt`
 1. Install dependencies by running `$npm i` in the root folder.
 1. Navigate to the problem you want to run.
 1. Run the solution by running `$npx ts-node index.ts`
+
+## Generating solution folders
+
+From anywhere in the folder run
+
+```bash
+$npm run createSolutionFolder
+```
+
+The tool will ask you a number of questions. For instance, the year and day you are currently answering the question for.
+
+![An example of how to generate folders](/assets/Screen-Recording-2022-03-17-at-22.28.25.gif)
