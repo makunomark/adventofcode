@@ -1,11 +1,11 @@
-type User = {
-  name: string,
-  age: number
+import { readFileToString } from "../../utils/readFile";
+import path from "path";
+
+async function main() {
+  const stringInput = await readFileToString(
+    path.join(__dirname, "sample_input.txt")
+  );
+  console.log(stringInput);
 }
 
-const user: User = {
-  name: "Mark Gachoka",
-  age: 27
-}
-
-console.log(user)
+main();
