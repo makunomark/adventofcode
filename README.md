@@ -1,8 +1,10 @@
 ## Folder structure
 
-Solutions are grouped by year and later inside folders labelled buy number `day-<number>`. For instance the solution for day one 2015 will be in the folder `/2015/day-one` and `/2015/day-two` for the second day and so on.
+Solutions are grouped by year and later inside folders labelled by day `day-<number>`. For instance the solution for day one for the year 2015 will be in folder `/2015/day-one` and `/2015/day-two` for the second day and so on.
 
-In each day, inside the `inputs` folder, there are two files, `sample_input.txt` and `input.txt` which hold the input that we get from the questions. The file with `sample` prepended holds the sample input, and the other one holds the actual input. To choose when to use sample input or actual input, we use environment variable named `env`. In before running step 3 in [Running locally](#running-locally), run `export env=prod` to run aganist the atcual input and `export env=test` aganist the sample input.
+For each day, inside the `inputs` folder, there are two files, `sample_input.txt` and `input.txt` which hold the input that we get from the questions. The file with `sample` prepended holds the sample input, and the other one holds the actual input. To choose when to use sample input or actual input, we use environment variable named `env`. Before running step 3 in [Running locally](#running-locally), run `export env=prod` to run aganist the atcual input and `export env=test` aganist the sample input.
+
+There's a tool to help with scafolding the folder for you, learn more about it [here](#generating-solution-folders).
 
 ## Running locally
 
