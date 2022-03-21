@@ -9,8 +9,11 @@ generateTemplateFiles([
       folderPath: path.join(__dirname, "./template"),
     },
     stringReplacers: [
-      { question: "Which year are you on today eg. 2015", slot: "__year__" },
-      { question: "Which day are you on today eg. day-three", slot: "__day__" },
+      { question: "Which year are you solving for", slot: "__year__" },
+      {
+        question: "Which day are you solving for",
+        slot: "__day__",
+      },
     ],
     output: {
       path: path.join(path.resolve(__dirname, ".."), "/__year__/__day__"),
