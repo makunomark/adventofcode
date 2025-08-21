@@ -1,6 +1,6 @@
 is_example = input("Is this the example input? (yes/no): ").strip().lower() == "yes"
 
-puzzle_input_file = open("./inputs/day-1/day-1-a-example.txt", "r") if is_example else open("./inputs/day-1/day-1-a.txt", "r")
+puzzle_input_file = open("./inputs/day_1_a_example.txt", "r") if is_example else open("./inputs/day_1_a.txt", "r")
 
 puzzle_input = puzzle_input_file.read().strip()
 
