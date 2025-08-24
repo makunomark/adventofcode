@@ -1,4 +1,4 @@
-from solutions.day_1 import Day1
+from solutions.Day1 import Day1
 
 SOLUTIONS = [Day1]
 
