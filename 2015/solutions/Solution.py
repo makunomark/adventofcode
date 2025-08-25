@@ -28,7 +28,7 @@ class Solution:
     return Path(path).read_text().strip()
 
   def sol_a(self):
-    if not self.input_b_data:
+    if not self.input_a_data:
       print("Input is missing for solution a")
       return
   
