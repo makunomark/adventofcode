@@ -1,6 +1,7 @@
 from solutions.Day1 import Day1
+from solutions.Day2 import Day2
 
-SOLUTIONS = [Day1]
+SOLUTIONS = [Day1, Day2]
 
 def display_name(cls):
   return getattr(cls, "NAME", cls.__name__)
